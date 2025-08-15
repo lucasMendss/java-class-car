@@ -16,10 +16,11 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Carro carroNepo = new Carro("PUSSY","FIAT", "BCT123", "Lucas Nepo");
-        Carro carroMendes = new Carro("MUSTANG","FORD", "XOTA123", "Lucas Mendes");
+        Carro carroNepo = new Carro("PUSSY","FIAT", "ATR7W23", "Lucas Nepo");
+        Carro carroMendes = new Carro("MUSTANG","FORD", "EFR1P99", "Lucas Mendes");
         System.out.printf("Carro do %s: %s %s com placa %s \n", carroNepo.getNomeDono(), carroNepo.getMarca(), carroNepo.getNome(), carroNepo.getPlaca());
         System.out.printf("Carro do %s: %s %s com placa %s \n", carroMendes.getNomeDono(), carroMendes.getMarca(), carroMendes.getNome(), carroMendes.getPlaca());
     }
     
 }
+
